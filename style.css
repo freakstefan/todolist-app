@@ -1,0 +1,150 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  background: url(img/WhatsApp\ Image\ 2024-02-25\ at\ 4.49.12\ AM.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.container {
+  border: 0.2rem solid black;
+  /* text-align: center; */
+
+  padding-top: 3rem;
+  max-width: 40rem;
+  /* height: 85vh; */
+  margin: 0 auto;
+  background-color: rgba(13, 11, 11, 0.9);
+  color: white;
+  border-radius: 1rem;
+}
+
+.p {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.button input {
+  padding: 0.5rem 2rem;
+  background-color: rgba(13, 11, 11, 0.9);
+  border-radius: 0.5rem;
+  margin-left: 6rem;
+  color: #fff;
+}
+
+::placeholder {
+  color: white;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: rgba(13, 11, 11, 0.9);
+  border-radius: 0.5rem;
+}
+
+.p2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.footer {
+  margin-top: 25rem;
+  text-align: center;
+}
+.p3 {
+  font-size: 1.5rem;
+}
+
+.btn2 {
+  padding: 0.5rem 1rem;
+  margin-top: 1.5rem;
+  background-color: rgba(13, 11, 11, 0.9);
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.todolist {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.todolist li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.8rem 2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.btns {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.btns ion-icon {
+  color: #fff;
+  font-size: 2.4rem;
+}
+
+.btns .completed {
+  color: rgb(4, 214, 4);
+}
+
+.btn-close {
+  background-color: transparent;
+  border: none;
+  height: 2.8rem;
+  width: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(197, 9, 9);
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  right: 2rem;
+}
+
+.btn-close ion-icon {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 25.9em) {
+  .container {
+    max-width: 30rem;
+  }
+  .button input {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
